@@ -1,0 +1,14 @@
+create DATABASE test;
+
+use test;
+
+
+create table data (
+  ID int AUTO_INCREMENT,
+  firstName varchar (20),
+  lastName varchar (30),
+  age varchar (5) ,
+  location varchar (10),
+  selection varchar (20),
+  constraint pk_name primary key (ID)
+)
